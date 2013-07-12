@@ -6,9 +6,13 @@ body{
 	width:90%;
 	background:white;
 	margin: 40px auto 0;
-	padding: 10px 10px 10px 10px;z
+	padding: 10px 10px 10px 10px;
 }
 
+.container{
+	overflow:auto;
+	width:100%;
+}
 .gallery li{
 	width:250px;
 	list-style:none;
@@ -51,9 +55,13 @@ p{
 .primary_sidebar{
 	float:left;
 }
-.navigation li{
-	list-style:none;
+.navigation{
+	overflow: auto;
+	width:100%;
 }
 .nav_item{
-
+	list-style:none;
+	float:left;
+	display:block;
+	margin-right:20px;
 }
